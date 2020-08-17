@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.icthh.xm.tmf.ms.communication"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "microservice",
+    "baseName": "communication",
+    "packageName": "com.icthh.xm.tmf.ms.communication",
+    "packageFolder": "com/icthh/xm/tmf/ms/communication",
+    "serverPort": "8701",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTYzOWFlNmFiYWVlMGI2YTkyY2M2MjRkZTkyMWNjMzhkMzAyZWQwYWU4Y2QzMTY0YTM2YzJlNmYzYzZlMmRiYzAzMjZmMmQyODc0MDRiYWZlNTZkNmI0YWRlMDdlNDA1NDNhMTA2NzkzNTM0YWI0ODI1YWM3YTRkMmQ1NjI4ZTQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1597649350835,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
